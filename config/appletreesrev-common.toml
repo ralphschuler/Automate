@@ -1,36 +1,36 @@
 
 [Recipes]
-	#[Enable/Disable] Emerald Apple Sapling Recipe [true/false] | [false by Default]
-	EmeraldAppleSaplingRecipe = false
 	#[Enable/Disable] Gold Apple Sapling Recipe [true/false] | [false by Default]
 	GoldAppleSaplingRecipe = false
+	#[Enable/Disable] Emerald Apple Sapling Recipe [true/false] | [false by Default]
+	EmeraldAppleSaplingRecipe = false
 	#[Enable/Disable] Notch Apple Recipe [true/false] | [false by Default]
 	NotchAppleRecipe = false
 
 ["Bonemeal Config"]
 	#[Enable/Disable] Bonemeal use on Any Apple Plant (Override Individual Options)
 	allowBonemeal = true
-	#[Enable/Disable] Bonemeal use on Emerald Apple Plants
-	allowEmeraldBonemeal = true
 	#[Enable/Disable] Bonemeal use on Apple Plants
 	allowAppleBonemeal = true
 	#[Enable/Disable] Bonemeal use on Golden Apple Plants
 	allowGoldenBonemeal = true
+	#[Enable/Disable] Bonemeal use on Emerald Apple Plants
+	allowEmeraldBonemeal = true
 
 ["Apple Tree Generation"]
 	NOTE = "Custom biomes may could work, Use: [modid]:[biome_name] | Higher numbers has lesser chance | Unregistered values will be set to Default | Values accepted [1 - 500]"
-	#Register the biomes to Spawn Apple Trees
-	Locations = ["plains", "sunflower_plains", "flower_forest", "forest", "dark_forest", "wooded_mountains"]
 	#[Enable/Disable] Natural Apple Trees generation [true/false] | [Default: true]
 	AllowAppleTrees = true
+	#Register the biomes to Spawn Apple Trees
+	Locations = ["plains", "sunflower_plains", "flower_forest", "forest", "dark_forest", "wooded_mountains"]
 	#Register the Chances of each registered Biome
 	Chances = [18, 16, 1, 6, 7, 12]
 
 ["Golden Tree Generation"]
-	#Register the biomes to Spawn Golden Trees
-	Locations = []
 	#[Enable/Disable] Natural Golden Trees generation [true/false] | [Default: false]
 	AllowGoldenTrees = false
+	#Register the biomes to Spawn Golden Trees
+	Locations = []
 	#Register the Chances of each registered Biome
 	Chances = []
 

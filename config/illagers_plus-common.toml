@@ -8,13 +8,37 @@
 	#WARNING: THE MINIMUM SPREAD DISTANCE CANNOT BE GREATER THAN THE MAXIMUM SPREAD DISTANCE!
 	["Structure Config"."Structure Feature Distance Values"]
 
-		["Structure Config"."Structure Feature Distance Values"."Illager Fort"]
-			#Fort: Maximum spread dist
+		["Structure Config"."Structure Feature Distance Values"."Illager Archer Tower"]
+			#Archer Tower: Minimum spread dist
 			#Range: 1 ~ 256
-			fortMaxDist = 90
+			archerTowerMinDist = 60
+			#Archer Tower: Maximum spread dist
+			#Range: 1 ~ 256
+			archerTowerMaxDist = 90
+
+		["Structure Config"."Structure Feature Distance Values"."Illager Centre"]
+			#Centre: Minimum spread dist
+			#Range: 1 ~ 256
+			centreMinDist = 60
+			#Centre: Maximum spread dist
+			#Range: 1 ~ 256
+			centreMaxDist = 90
+
+		["Structure Config"."Structure Feature Distance Values"."Illager Fort"]
 			#Fort: Minimum spread dist
 			#Range: 1 ~ 256
 			fortMinDist = 60
+			#Fort: Maximum spread dist
+			#Range: 1 ~ 256
+			fortMaxDist = 90
+
+		["Structure Config"."Structure Feature Distance Values"."Illager Mine"]
+			#Mine: Minimum spread dist
+			#Range: 1 ~ 256
+			mineMinDist = 75
+			#Mine: Maximum spread dist
+			#Range: 1 ~ 256
+			mineMaxDist = 90
 
 		["Structure Config"."Structure Feature Distance Values"."Illager Tower"]
 			#Tower: Minimum spread dist
@@ -24,66 +48,34 @@
 			#Range: 1 ~ 256
 			towerMaxDist = 90
 
-		["Structure Config"."Structure Feature Distance Values"."Illager Archer Tower"]
-			#Archer Tower: Minimum spread dist
-			#Range: 1 ~ 256
-			archerTowerMinDist = 60
-			#Archer Tower: Maximum spread dist
-			#Range: 1 ~ 256
-			archerTowerMaxDist = 90
-
-		["Structure Config"."Structure Feature Distance Values"."Illager Mine"]
-			#Mine: Maximum spread dist
-			#Range: 1 ~ 256
-			mineMaxDist = 90
-			#Mine: Minimum spread dist
-			#Range: 1 ~ 256
-			mineMinDist = 75
-
-		["Structure Config"."Structure Feature Distance Values"."Illager Centre"]
-			#Centre: Maximum spread dist
-			#Range: 1 ~ 256
-			centreMaxDist = 90
-			#Centre: Minimum spread dist
-			#Range: 1 ~ 256
-			centreMinDist = 60
-
 	#This is the configuration section for controlling the allowed biomes for the structures to spawn in.
 	#NOTE: LEAVING A LIST EMPTY WILL PREVENT THAT STRUCTURE FROM SPAWNING IN
 	["Structure Config"."Structure Feature Whitelists"]
 
-		["Structure Config"."Structure Feature Whitelists"."Illager Fort"]
-			#Whitelist for allowed biomes for Illager Fort to spawn in
-			whitelist = ["minecraft:forest"]
-
-		["Structure Config"."Structure Feature Whitelists"."Illager Tower"]
-			#Whitelist for allowed biomes for Illager Tower to spawn in
-			whitelist = ["minecraft:plains", "minecraft:forest"]
-
 		["Structure Config"."Structure Feature Whitelists"."Illager Archer Tower"]
 			#Whitelist for allowed biomes for Illager Archer Tower to spawn in
-			whitelist = ["minecraft:plains", "minecraft:forest"]
-
-		["Structure Config"."Structure Feature Whitelists"."Illager Mine"]
-			#Whitelist for allowed biomes for Illager Mine to spawn in
 			whitelist = ["minecraft:plains", "minecraft:forest"]
 
 		["Structure Config"."Structure Feature Whitelists"."Illager Centre"]
 			#Whitelist for allowed biomes for Illager Centre to spawn in
 			whitelist = ["minecraft:plains"]
 
+		["Structure Config"."Structure Feature Whitelists"."Illager Fort"]
+			#Whitelist for allowed biomes for Illager Fort to spawn in
+			whitelist = ["minecraft:forest"]
+
+		["Structure Config"."Structure Feature Whitelists"."Illager Mine"]
+			#Whitelist for allowed biomes for Illager Mine to spawn in
+			whitelist = ["minecraft:plains", "minecraft:forest"]
+
+		["Structure Config"."Structure Feature Whitelists"."Illager Tower"]
+			#Whitelist for allowed biomes for Illager Tower to spawn in
+			whitelist = ["minecraft:plains", "minecraft:forest"]
+
 #This is the configuration section for controlling the amount of entities per wave to spawn.
 #WARNING: LISTS MUST BE NO LONGER OR SHORTER THAN 8 ENTRIES!
 #NOTE: SETTING THE LIST TO ALL ZEROS WILL PREVENT THAT ENTITY FROM SPAWNING IN ANY WAVES!
 ["Raid Wave Member Config"]
-
-	["Raid Wave Member Config"."Illager King"]
-		#Illager King Wave Counts
-		wave_counts = [0, 0, 0, 1, 0, 0, 0, 1]
-
-	["Raid Wave Member Config".Miner]
-		#Miner Wave Counts
-		wave_counts = [0, 0, 0, 0, 0, 0, 0, 0]
 
 	["Raid Wave Member Config".Archer]
 		#Archer Wave Counts
@@ -93,17 +85,13 @@
 		#Berserker Wave Counts
 		wave_counts = [0, 0, 0, 0, 0, 1, 1, 1]
 
-	["Raid Wave Member Config".Enchanter]
-		#Enchanter Wave Counts
-		wave_counts = [0, 1, 0, 1, 0, 1, 0, 1]
-
 	["Raid Wave Member Config"."Black Iron Golem"]
 		#Black Iron Golem Wave Counts
 		wave_counts = [0, 0, 1, 0, 0, 1, 0, 1]
 
-	["Raid Wave Member Config".Necromancer]
-		#Necromancer Wave Counts
-		wave_counts = [0, 0, 1, 0, 1, 1, 1, 1]
+	["Raid Wave Member Config".Enchanter]
+		#Enchanter Wave Counts
+		wave_counts = [0, 1, 0, 1, 0, 1, 0, 1]
 
 	["Raid Wave Member Config".Furantur]
 		#Furantur Wave Counts
@@ -112,4 +100,16 @@
 	["Raid Wave Member Config".Hoarder]
 		#Hoarder Wave Counts
 		wave_counts = [1, 1, 1, 1, 1, 1, 1, 1]
+
+	["Raid Wave Member Config"."Illager King"]
+		#Illager King Wave Counts
+		wave_counts = [0, 0, 0, 1, 0, 0, 0, 1]
+
+	["Raid Wave Member Config".Necromancer]
+		#Necromancer Wave Counts
+		wave_counts = [0, 0, 1, 0, 1, 1, 1, 1]
+
+	["Raid Wave Member Config".Miner]
+		#Miner Wave Counts
+		wave_counts = [0, 0, 0, 0, 0, 0, 0, 0]
 
