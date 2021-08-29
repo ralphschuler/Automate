@@ -1,0 +1,19 @@
+
+#sprout_plains biome generation
+[sprout_plains_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 5.0
+
+#uncanny_forest biome generation
+[uncanny_forest_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+#stone_wastes biome generation
+[stone_wastes_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 2.0
+

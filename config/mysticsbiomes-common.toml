@@ -1,0 +1,11 @@
+
+#Mystic's Biomes
+[common]
+
+	#Biome Generation:
+	#The higher the number, the more common the biome is.
+	[common.biome_weights]
+		"Bamboo Blossom Forest weight" = 2
+		"Strawberry Fields weight" = 2
+		"Lavender Meadow weight" = 2
+

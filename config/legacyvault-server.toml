@@ -1,0 +1,54 @@
+
+###############################
+# Database properties for Legacy Vault  mod.
+###############################
+[05-database]
+	#User for H2 DB access.
+	User = "sa"
+	#Password for H2 DB access.
+	Password = "sa"
+
+###############################
+# Public Vault properties for Legacy Vault  mod.
+###############################
+[04-public-vault]
+	# Disallowed players for vault inventory. Must match the Player UUID(s). Wildcards are NOT supported.
+	#If both White and Black lists are empty, then all players have access.
+	"Black list by player uuid:" = []
+	# Enables a singular global public vault(s) that can be used by all players from the same location.
+	# ie. a vault block is not 'owned' to 'keyed' to a specific player only.
+	# Typically an admin/server owner would use this to create a central location (or set of locations) where everyone can access their vault.
+	"Enable public vault:" = false
+	# Allowed players for vault inventory. Must match the Player UUID(s). Wildcards are NOT supported.
+	#If both White and Black lists are empty, then all players have access.
+	"White list by player uuid:" = []
+
+###############################
+# General properties for Legacy Vault  mod.
+###############################
+[03-general]
+	# The number of vaults each player can place per world.
+	# Enable public vault' must be disabled.
+	#Range: 3 ~ 100
+	"Number of vaults per player:" = 3
+	# Disallowed Items/Blocks for vault inventory. Must match the Item/Block Registry Name(s). Regex IS supported.  ex. minecraft:dirt, (minecraft:)+([a-z0-9_]+)stairs
+	"Black list by Item/Block name:" = ["(treasure2:)+([a-z0-9_]+)(chest)+([a-z0-9_]?)", "(treasure2:)+([a-z0-9_]+)(strongbox)+", "treasure2:cardboard_box", "treasure2:milk_crate"]
+	# Maximum item stack size in a vault.
+	#Range: 1 ~ 1024
+	"Maximum item stack size:" = 64
+	# Allowed Tags for vault inventory. Must match the Tag Registry Name(s). Regex is NOT supported.
+	"White list by  Tag name:" = []
+	# Enables a limited number of vaults per player per world.
+	# Default value = true, with 3 vaults per player.
+	"Enable limited vaults player:" = true
+	#Values are [easy | normal | hard]
+	"Recipe Difficulty" = "normal"
+	# Allowed Items/Blocks for vault inventory. Must match the Item/Block Registry Name(s). Regex IS supported.  ex. minecraft:dirt, (minecraft:)+([a-z0-9_]+)stairs
+	"White list by  Item/Block name:" = []
+	# Disallowed Tags for vault inventory. Must match the Tag Registry Name(s). Regex is NOT supported.
+	"Black list by  Tag name:" = []
+	# Maximum capacity of the vault inventory.
+	# Sizes are 27 (small/standard), 54 (medium), 91 (large). (**91 is odd, I know, but it fits within the 256x256, without having to scroll.)
+	#Range: 27 ~ 91
+	"Vault inventory size:" = 27
+

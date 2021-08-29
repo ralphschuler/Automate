@@ -1,0 +1,22 @@
+
+#Client only settings, mostly things related to rendering
+[client]
+	#The corner for the Quiver GUI button
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	buttonCorner = "TOP_RIGHT"
+	#Sets the Quiver HUD element X-axis off-set should be from it's anchor point
+	#Range: -400 ~ 400
+	quiver_hud_offset_x = -139
+	#Sets the Quiver HUD element Y-axis off-set should be from it's anchor point
+	#Range: -400 ~ 400
+	quiver_hud_offset_y = 63
+	#The X-Offset for the Quiver GUI button
+	#Range: -100 ~ 100
+	buttonXOffset = 0
+	#Sets where the Quiver HUD Element should be anchored
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	quiver_hud_alignment = "BOTTOM_CENTER"
+	#The Y-Offset for the Quiver GUI button
+	#Range: -100 ~ 100
+	buttonYOffset = 0
+

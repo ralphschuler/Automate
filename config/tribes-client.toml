@@ -1,0 +1,5 @@
+
+[client]
+	#position of the land owner ui. options: top_left, top_right, top_middle, bottom_left, bottom_right, bottom_middle, none 
+	landOwnerDisplayPosition = "top_left"
+

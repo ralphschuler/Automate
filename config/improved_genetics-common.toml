@@ -1,0 +1,94 @@
+
+#Power settings
+[power]
+
+	#DNA Injector settings
+	[power.dna_editor]
+		#Power to transfer per tick
+		#Range: > 0
+		extract = 1000
+		#Tick count per process
+		#Range: > 0
+		ticks = 100
+		#Power to consume per tick
+		#Range: > 0
+		consume = 2
+		#Maximum power for the DNA Injector
+		#Range: > 0
+		maxPower = 100000
+
+	#Cell Extractor settings
+	[power.cell_extractor]
+		#Power to transfer per tick
+		#Range: > 0
+		extract = 1000
+		#Tick count per process
+		#Range: > 0
+		ticks = 100
+		#Power to consume per tick
+		#Range: > 0
+		consume = 2
+		#Maximum power for the Cell Extractor
+		#Range: > 0
+		maxPower = 100000
+
+	#DNA Extractor settings
+	[power.dna_extractor]
+		#Power to transfer per tick
+		#Range: > 0
+		extract = 1000
+		#Tick count per process
+		#Range: > 0
+		ticks = 100
+		#Power to consume per tick
+		#Range: > 0
+		consume = 2
+		#Maximum power for the DNA Extractor
+		#Range: > 0
+		maxPower = 100000
+
+	#Analyzer settings
+	[power.analyzer]
+		#Power generation to send per tick
+		#Range: > 0
+		transfer = 1000
+		#Tick count per process
+		#Range: > 0
+		ticks = 100
+		#Power to consume per tick
+		#Range: > 0
+		consume = 2
+		#Maximum power for the Analyzer
+		#Range: > 0
+		maxPower = 100000
+
+	#Cloning Machine settings
+	[power.cloning_machine]
+		#Power to transfer per tick
+		#Range: > 0
+		extract = 2000
+		#Tick count per process
+		#Range: > 0
+		ticks = 1000
+		#Power to consume per tick
+		#Range: > 0
+		consume = 3
+		#Maximum power for the Cloning Machine
+		#Range: > 0
+		maxPower = 100000
+
+	#Generator settings
+	[power.generator]
+		#Power generation to send per tick
+		#Range: > 0
+		transfer = 2000
+		#Ticks per coal block
+		#Range: > 0
+		ticks = 400
+		#Maximum power for the Generator
+		#Range: > 0
+		maxPower = 100000
+		#Produced FE per tick
+		#Range: > 0
+		produce = 4
+

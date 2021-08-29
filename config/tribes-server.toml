@@ -1,0 +1,48 @@
+
+[server]
+	#Tribe Required: 
+	tribesRequired = true
+	#true for north/south or false for east/west: 
+	useNorthSouthHemisphereDirection = true
+	#Whether players should be able to harm other members of their tribe: 
+	friendlyFire = false
+	#Players who haven't logged on in this many days will automatically be removed from the tribe they're in. Setting this value to 0 will disable this feature: 
+	#Range: > 0
+	removeInactiveAfterDays = 10
+	#I:How long your chunk claims will be disabled by how many times people have died (out of PVP) in the interval: 
+	nonpvpDeathPunishTimes = [10, 60, 360]
+	#I:Tier Thresholds: 
+	tier_thresholds = [4, 12, 30, 100]
+	#S: effects that cannot be chosen as a persistent tribe effect : 
+	ignoredEffects = ["minecraft:bad_omen", "minecraft:conduit_power", "minecraft:health_boost", "minecraft:luck", "minecraft:unluck", "minecraft:hero_of_the_village", "minecraft:absorption"]
+	#A member must have equal or greater than this rank to select a hemisphere for thier tribe [member, officer, vice leader, leader]: 
+	#Range: 0 ~ 3
+	rankToChooseHemi = 2
+	#The number of days you must wait between changing your tribe's deity : 
+	#Range: > 0
+	daysBetweenDeityChange = 30
+	#Minimum tribe tier to access a hemisphere: 
+	#Range: 0 ~ 10
+	tierForSelectHemi = 2
+	#The distance from zero to the edge of a hemisphere, half the width of no mans land : 
+	#Range: > 0
+	halfNoMansLandWidth = 500
+	#I:How long your chunk claims will be disabled by how many times people have died (by PVP) in the interval: 
+	pvpDeathPunishTimes = [30, 120, 1440]
+	#The number of days you must wait between changing your tribe's effects : 
+	#Range: > 0
+	daysBetweenEffectsChange = 10
+	#I:Number of negative effects by tribe tier: 
+	tier_negative_effects = [2, 2, 1, 1, 0]
+	#I:Number of positive effects by tribe tier: 
+	tier_positive_effects = [1, 2, 2, 3, 3]
+	#Whether player's tribe must select a hemisphere to access it: 
+	requireHemiAccess = true
+	#Maximum Number of Tribes: 
+	#Range: 1 ~ 999
+	numberOfTribes = 10
+	#S: UUIDs of server admins: 
+	admins = ["380df991-f603-344c-a090-369bad2a924a", "bcb2252d-70de-4abc-9932-bc46bd5dc62f"]
+	#I:Maximum number of chunks able to be claimed at each tribe rank: 
+	max_claimed_chunks = [1, 4, 10, 20, 30]
+
