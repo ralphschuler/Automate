@@ -6,7 +6,9 @@ assignees:
   - ralphschuler
 body:
   - type: markdown
-    value: "## Thank you for contributing to our project!"
+    attributes:
+      value: |
+      ## Thank you for contributing to our project!
   - type: input
     id: contact
     attributes:
