@@ -7,8 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-      ## Thank you for contributing to our project!
+      value: "## Thank you for contributing to our project!"
   - type: input
     id: contact
     attributes:
@@ -32,9 +31,9 @@ body:
       label: Which operating systems have you used?
       description: You may select more than one.
       options:
-        - macOS
-        - Windows
-        - Linux
+        - label: macOS
+        - label: Windows
+        - label: Linux
     validations:
       required: true
   - type: dropdown
