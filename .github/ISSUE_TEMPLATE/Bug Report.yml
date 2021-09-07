@@ -1,14 +1,12 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: [bug, triage]
-assignees:
-  - octocat
+labels: [bug]
+#assignees:
+#  - octocat
 body:
   - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+    value: "## Thank you for contributing to our project!"
   - type: input
     id: contact
     attributes:
@@ -26,37 +24,49 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: checkboxes
+    id: operating-systems
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Which operating systems have you used?
+      description: You may select more than one.
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - label: macOS
+        - label: Windows
+        - label: Linux
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: version
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What modpack version are you using?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: gamemode
+    attributes:
+      label: What gamemode where you in when the bug appeart?
+      multiple: false
+      options:
+        - Spectator
+        - Advanture
+        - Creative
+        - Survival
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Crash Report
+      description: Please copy and paste the Crash report here. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug report.
