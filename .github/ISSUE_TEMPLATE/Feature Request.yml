@@ -2,8 +2,8 @@ name: Feature Request
 description: File a feature request
 title: "[Feature]: "
 labels: [feature]
-#assignees:
-#  - octocat
+assignees:
+  - ralphschuler
 body:
   - type: markdown
     value: "## Thank you for contributing to our project!"

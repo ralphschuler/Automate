@@ -2,8 +2,8 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: [bug]
-#assignees:
-#  - octocat
+assignees:
+  - ralphschuler
 body:
   - type: markdown
     value: "## Thank you for contributing to our project!"
@@ -30,9 +30,9 @@ body:
       label: Which operating systems have you used?
       description: You may select more than one.
       options:
-        - label: macOS
-        - label: Windows
-        - label: Linux
+        - macOS
+        - Windows
+        - Linux
     validations:
       required: true
   - type: dropdown
