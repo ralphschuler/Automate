@@ -18,8 +18,8 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: Idea
-      description: Please fill in detail what yor idea is.
+      label: Description
+      description: Please describe your idea in detail.
       placeholder: Tell us what you dream of
       value: "When playing the game i want it to ..."
     validations:

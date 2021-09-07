@@ -66,7 +66,7 @@ body:
       label: Crash Report
       description: Please copy and paste the Crash report here. This will be automatically formatted into code, so no need for backticks.
       render: shell
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to fill out this bug report.
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
