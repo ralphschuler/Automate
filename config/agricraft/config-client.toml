@@ -243,7 +243,7 @@
 	"TOP only with magnifying glass" = true
 	#
 	#Defines the mod controlling season logic in case multiple are installed
-	#accepted values are: "sereneseasons", "betterweather"
+	#accepted values are: "sereneseasons"
 	"season logic" = "sereneseasons"
 	#
 	#Set to false to disable compatibility with Immersive Engineering (in case things break)

@@ -6,6 +6,7 @@
 		impact = 0.5
 		max_strikes = 1
 		armor_negation = 0.0
+		#Allowed Values: ZOMBIE, SKELETON, CREEPER, SPIDER, VINDICATOR
 		ai_type = "ZOMBIE"
 		texture_location = "modid:texture_location"
 
@@ -22,7 +23,7 @@
 [custom_armor]
 
 	[custom_armor.sample]
-		stunArmor = 0.0
+		stun_armor = 0.0
 		weight = 0.0
 		registry_name = "modid:registryname"
 

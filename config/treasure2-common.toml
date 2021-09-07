@@ -1,33 +1,38 @@
 
 ###############################
-# General properties for Treasure mod.
-###############################
-[general]
-	# Enable/Disable a check to ensure the default templates exist on the file system.
-	# If enabled, then you will not be able to remove any default templates.
-	# Only disable if you know what you're doing.
-	"Enable default templates check:" = true
-	# Enable/Disable a check to ensure the default loot tables exist on the file system.
-	#If enabled, then you will not be able to remove any default loot tables (but they can be edited).
-	#Only disable if you know what you're doing.
-	"Enable default loot tables check:" = true
-	#The probability that a surface structure will generate.
-	#Range: 0 ~ 100
-	"Probability of surface structure spawn:" = 25
-	# Allowed Dimensions for generation.
-	# Treasure2 was designed for 'normal' overworld-type dimensions.
-	# This setting does not use any wildcards (*). You must explicitly set the dimensions that are allowed.
-	# ex. minecraft:overworld
-	"Dimension White List:" = ["minecraft:overworld"]
-	# Enable/Disable a check to ensure the default decay rulesets exist on the file system.
-	# If enabled, then you will not be able to remove any default decay rulesets (but they can be edited).
-	# Only disable if you know what you're doing.
-	"Enable default decay rulesets check:" = true
-
-###############################
 # Gems and Ores properties
 ###############################
 ["gems and ores"]
+	# The probability that a topaz ore will spawn.
+	#Range: 0.0 ~ 100.0
+	"Probability of topaz ore spawn:" = 75.0
+	# The maximum y-value where a onyx ore can spawn.
+	#Range: 1 ~ 255
+	"Maximum y-value for onyx ore spawn location:" = 24
+	# The probability that a ruby ore will spawn.
+	#Range: 0.0 ~ 100.0
+	"Probability of ruby ore spawn:" = 65.0
+	# The number of onyx ore blocks in a vein.
+	#Range: 3 ~ 20
+	"Onyx ore vein size:" = 3
+	# The number of ruby ore blocks in a vein.
+	#Range: 3 ~ 20
+	"Ruby ore vein size:" = 3
+	# The minimum y-value where a sapphire ore can spawn.
+	#Range: 1 ~ 255
+	"Minimum y-value for sapphire ore spawn location:" = 6
+	# The maximum y-value where a sapphire ore can spawn.
+	#Range: 1 ~ 255
+	"Maximum y-value for sapphire ore spawn location:" = 17
+	# The number of ruby ore veins in a chunk.
+	#Range: 1 ~ 20
+	"Ruby ore veins per chunk:" = 1
+	# The number of topaz ore veins in a chunk.
+	#Range: 1 ~ 20
+	"Topaz ore veins per chunk:" = 1
+	# The minimum y-value where a ruby ore can spawn.
+	#Range: 1 ~ 255
+	"Minimum y-value for ruby ore spawn location:" = 6
 	# Enable/disable whether a gem ore will spawn.
 	"Enable gem ore spawn:" = true
 	# The number of sapphire ore blocks in a vein.
@@ -35,31 +40,31 @@
 	"Sapphire ore vein size:" = 3
 	# The probability that a sapphire ore will spawn.
 	#Range: 0.0 ~ 100.0
-	"Probability of sapphire ore spawn:" = 70.0
-	# The probability that a ruby ore will spawn.
+	"Probability of sapphire ore spawn:" = 65.0
+	# The maximum y-value where a topaz ore can spawn.
+	#Range: 1 ~ 255
+	"Maximum y-value for topaz ore spawn location:" = 25
+	# The number of topaz ore blocks in a vein.
+	#Range: 3 ~ 20
+	"Topaz ore vein size:" = 3
+	# The probability that a onyx ore will spawn.
 	#Range: 0.0 ~ 100.0
-	"Probability of ruby ore spawn:" = 70.0
+	"Probability of onyx ore spawn:" = 70.0
 	# The number of sapphire ore veins in a chunk.
 	#Range: 3 ~ 20
 	"Sapphire ore veins per chunk:" = 3
-	# The number of ruby ore blocks in a vein.
-	#Range: 3 ~ 20
-	"Ruby ore vein size:" = 3
 	# The maximum y-value where a ruby ore can spawn.
 	#Range: 1 ~ 255
 	"Maximum y-value for ruby ore spawn location:" = 17
-	# The minimum y-value where a sapphire ore can spawn.
+	# The minimum y-value where a topaz ore can spawn.
 	#Range: 1 ~ 255
-	"Minimum y-value for sapphire ore spawn location:" = 8
-	# The maximum y-value where a sapphire ore can spawn.
+	"Minimum y-value for topaz ore spawn location:" = 9
+	# The minimum y-value where a onyx ore can spawn.
 	#Range: 1 ~ 255
-	"Maximum y-value for sapphire ore spawn location:" = 17
-	# The number of ruby ore veins in a chunk.
+	"Minimum y-value for onyx ore spawn location:" = 9
+	# The number of onyx ore veins in a chunk.
 	#Range: 1 ~ 20
-	"Ruby ore veins per chunk:" = 1
-	# The minimum y-value where a ruby ore can spawn.
-	#Range: 1 ~ 255
-	"Minimum y-value for ruby ore spawn location:" = 8
+	"Onyx ore veins per chunk:" = 1
 
 ###############################
 # Coins and Valuables properties
@@ -68,60 +73,6 @@
 	# The maximum size of a coin item stack.
 	#Range: 1 ~ 64
 	"Maximum Stack Size:" = 8
-
-###############################
-# Keys and Locks properties
-###############################
-["keys and locks"]
-	# The maximum uses for a given spider key.
-	#Range: 1 ~ 32000
-	"Spider key max uses:" = 5
-	# Enable/Disable whether a Key can break when attempting to unlock a Lock.
-	"Enable key breaks:" = true
-	# The maximum uses for a given sapphire key.
-	#Range: 1 ~ 32000
-	"Sapphire key max uses:" = 5
-	# The maximum uses for a given gold key.
-	#Range: 1 ~ 32000
-	"Gold key max uses:" = 15
-	# The maximum uses for a given lightning key.
-	#Range: 1 ~ 32000
-	"Stone key max uses:" = 10
-	# The maximum uses for a given ruby key.
-	#Range: 1 ~ 32000
-	"Ruby key max uses:" = 5
-	# The maximum uses for a given diamond key.
-	#Range: 1 ~ 32000
-	"Diamond key max uses:" = 20
-	# The maximum uses for a given skeleton key.
-	#Range: 1 ~ 32000
-	"Skeleton key max uses:" = 5
-	# The maximum uses for a given wooden key.
-	#Range: 1 ~ 32000
-	"Wood key max uses:" = 20
-	# The maximum uses for a given thiefs lock pick.
-	#Range: 1 ~ 32000
-	"Thief's lockpick max uses:" = 10
-	#Enable/Disable whether a Lock item is dropped when unlocked by Key item.
-	"Enable lock drops:" = true
-	# The maximum uses for a given iron key.
-	#Range: 1 ~ 32000
-	"Iron key max uses:" = 10
-	# The maximum uses for a given wither key.
-	#Range: 1 ~ 32000
-	"Wither key max uses:" = 5
-	# The maximum uses for a given metallurgists key.
-	#Range: 1 ~ 32000
-	"Metallurgists key max uses:" = 25
-	# The maximum uses for a given pilferers lock pick.
-	#Range: 1 ~ 32000
-	"Pilferer's lockpick max uses:" = 10
-	# The maximum uses for a given emerald key.
-	#Range: 1 ~ 32000
-	"Emerald key max uses:" = 10
-	# The maximum uses for a given jewelled key.
-	#Range: 1 ~ 32000
-	"Jewelled Key max uses:" = 5
 
 ###############################
 # Mod properties
@@ -140,42 +91,6 @@
 	#Resource files will be located here as well.
 	# This is relative to the Minecraft install path.
 	configFolder = "config"
-
-###############################
-# Well properties
-###############################
-[wells]
-	#The minimum number of chunks generated before another attempt to spawn a well is made.
-	#Range: 100 ~ 32000
-	"Chunks per well spawn:" = 400
-	#The probability that a well will generate.
-	#Range: 0.0 ~ 100.0
-	"Generation probability:" = 80.0
-	#Enable/disable whether wells will spawn.
-	"Enable wells:" = true
-	#The number of wells that are monitored. Most recent additions replace oldest when the registry is full.
-	#This is the set of wells used to measure distance between newly generated wells.
-	#Range: 5 ~ 100
-	"Maximum size of chest registry:" = 25
-	# The minimum distance, measured in blocks, that two wells can be in proximity.
-	# Note: Only wells in the wells registry are checked against this property.
-	# Used in conjunction with the chunks per well and spawn probability.
-	# Ex. TODO
-	#Range: 100 ~ 32000
-	"Minimum block distance per well spawn:" = 400
-
-	###############################
-	# Biome white and black list properties
-	###############################
-	[wells.biomes]
-		# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
-		"Black list by biome name:" = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
-		# Disallowed Biome Types for generation. Must match the Type identifer(s).
-		"Black list by biome type:" = ["minecraft:ocean", "minecraft:deep_ocean"]
-		# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
-		"White list by biome name:" = []
-		# Allowabled Biome Types for generation. Must match the Type identifer(s).
-		"White list by biome type:" = []
 
 ###############################
 # Wither Tree properties
@@ -728,6 +643,122 @@
 	"Probability of pit structure spawn:" = 25
 
 ###############################
+# General properties for Treasure mod.
+###############################
+[general]
+	# Enable/Disable a check to ensure the default templates exist on the file system.
+	# If enabled, then you will not be able to remove any default templates.
+	# Only disable if you know what you're doing.
+	"Enable default templates check:" = true
+	# Enable/Disable a check to ensure the default loot tables exist on the file system.
+	#If enabled, then you will not be able to remove any default loot tables (but they can be edited).
+	#This option should be enabled at least for the first run of the mod to create the default settings.
+	#Only disable if you know what you're doing.
+	"Enable default loot tables check:" = true
+	#The probability that a surface structure will generate.
+	#Range: 0 ~ 100
+	"Probability of surface structure spawn:" = 25
+	# Allowed Dimensions for generation.
+	# Treasure2 was designed for 'normal' overworld-type dimensions.
+	# This setting does not use any wildcards (*). You must explicitly set the dimensions that are allowed.
+	# ex. minecraft:overworld
+	"Dimension White List:" = ["minecraft:overworld"]
+	# Enable/Disable a check to ensure the default decay rulesets exist on the file system.
+	# If enabled, then you will not be able to remove any default decay rulesets (but they can be edited).
+	# Only disable if you know what you're doing.
+	"Enable default decay rulesets check:" = true
+
+###############################
+# Keys and Locks properties
+###############################
+["keys and locks"]
+	# The maximum uses for a given spider key.
+	#Range: 1 ~ 32000
+	"Spider key max uses:" = 5
+	# Enable/Disable whether a Key can break when attempting to unlock a Lock.
+	"Enable key breaks:" = true
+	# The maximum uses for a given sapphire key.
+	#Range: 1 ~ 32000
+	"Sapphire key max uses:" = 5
+	# The maximum uses for a given gold key.
+	#Range: 1 ~ 32000
+	"Gold key max uses:" = 15
+	# The maximum uses for a given lightning key.
+	#Range: 1 ~ 32000
+	"Stone key max uses:" = 10
+	# The maximum uses for a given ruby key.
+	#Range: 1 ~ 32000
+	"Ruby key max uses:" = 5
+	# The maximum uses for a given diamond key.
+	#Range: 1 ~ 32000
+	"Diamond key max uses:" = 20
+	# The maximum uses for a given skeleton key.
+	#Range: 1 ~ 32000
+	"Skeleton key max uses:" = 5
+	# The maximum uses for a given wooden key.
+	#Range: 1 ~ 32000
+	"Wood key max uses:" = 20
+	# The maximum uses for a given thiefs lock pick.
+	#Range: 1 ~ 32000
+	"Thief's lockpick max uses:" = 10
+	#Enable/Disable whether a Lock item is dropped when unlocked by Key item.
+	"Enable lock drops:" = true
+	# The maximum uses for a given iron key.
+	#Range: 1 ~ 32000
+	"Iron key max uses:" = 10
+	# The maximum uses for a given wither key.
+	#Range: 1 ~ 32000
+	"Wither key max uses:" = 5
+	# The maximum uses for a given metallurgists key.
+	#Range: 1 ~ 32000
+	"Metallurgists key max uses:" = 25
+	# The maximum uses for a given pilferers lock pick.
+	#Range: 1 ~ 32000
+	"Pilferer's lockpick max uses:" = 10
+	# The maximum uses for a given emerald key.
+	#Range: 1 ~ 32000
+	"Emerald key max uses:" = 10
+	# The maximum uses for a given jewelled key.
+	#Range: 1 ~ 32000
+	"Jewelled Key max uses:" = 5
+
+###############################
+# Well properties
+###############################
+[wells]
+	#The minimum number of chunks generated before another attempt to spawn a well is made.
+	#Range: 100 ~ 32000
+	"Chunks per well spawn:" = 400
+	#The probability that a well will generate.
+	#Range: 0.0 ~ 100.0
+	"Generation probability:" = 80.0
+	#Enable/disable whether wells will spawn.
+	"Enable wells:" = true
+	#The number of wells that are monitored. Most recent additions replace oldest when the registry is full.
+	#This is the set of wells used to measure distance between newly generated wells.
+	#Range: 5 ~ 100
+	"Maximum size of chest registry:" = 25
+	# The minimum distance, measured in blocks, that two wells can be in proximity.
+	# Note: Only wells in the wells registry are checked against this property.
+	# Used in conjunction with the chunks per well and spawn probability.
+	# Ex. TODO
+	#Range: 100 ~ 32000
+	"Minimum block distance per well spawn:" = 400
+
+	###############################
+	# Biome white and black list properties
+	###############################
+	[wells.biomes]
+		# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+		"Black list by biome name:" = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
+		# Disallowed Biome Types for generation. Must match the Type identifer(s).
+		"Black list by biome type:" = ["minecraft:ocean", "minecraft:deep_ocean"]
+		# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+		"White list by biome name:" = []
+		# Allowabled Biome Types for generation. Must match the Type identifer(s).
+		"White list by biome type:" = []
+
+###############################
 # Gravestones and Markers properties
 ###############################
 [markers]
@@ -750,6 +781,14 @@
 	"Probability that grave marker will spawn a mob:" = 25
 	# Enable/disable whether chest markers (gravestones, bones)  are generated when generating treasure chests.
 	"Enable markers:" = true
+
+###############################
+# Treasure Loot and Valuables properties
+###############################
+[booty]
+	# The maximum size of a wealth item stacks. ex. Coins, Gems, Pearls
+	#Range: 1 ~ 64
+	"Maximum Stack Size:" = 8
 
 ###############################
 # Fog properties

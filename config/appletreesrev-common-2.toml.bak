@@ -36,7 +36,7 @@
 
 ["Emerald Tree Generation"]
 	#[Enable/Disable] Natural Golden Trees generation [true/false] | [Default: true]
-	AllowEmeraldTrees = true
+	AllowEmeraldTrees = false
 	#Register the biomes to Spawn Golden Trees
 	Locations = ["flower_forest"]
 	#Register the Chances of each registered Biome

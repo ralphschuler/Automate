@@ -51,17 +51,29 @@
 		"Launch Chance" = 0.05
 
 [Skeleton]
-	#Skeletons are more precise when shooting and strafing is removed, can hit a target from 64 blocks and try to stay away from the target.
+	#Skeletons are more precise when shooting and strafing is removed, can hit a target from up to 64 blocks and try to stay away from the target.
 	"Enable Skeleton Shoot" = true
 
-	#Skeletons are more precise when shooting and strafing is removed, can hit a target from 64 blocks and try to stay away from the target.
+	#Skeletons are more precise when shooting and strafing is removed, can hit a target from up to 64 blocks and try to stay away from the target.
 	[Skeleton."Skeleton Shoot"]
 		#How much inaccuracy does the arrow fired by skeletons have. Vanilla skeletons have 10/6/2 inaccuracy in easy/normal/hard difficulty.
 		#Range: 0.0 ~ 30.0
-		"Arrow Inaccuracy" = 0.0
+		"Arrow Inaccuracy" = 2.0
 		#Chance for a Skeleton to spawn with the ability to avoid the player
 		#Range: 0.0 ~ 1.0
-		"Avoid Player chance" = 1.0
+		"Avoid Player chance" = 0.5
+		#The max range from where a skeleton will shoot a player
+		#Range: 1 ~ 64
+		"Max Shooting Range" = 24
+		#The min range from where a skeleton will shoot a player
+		#Range: 1 ~ 64
+		"Min Shooting Range" = 24
+
+		#Entities that shouldn't get the enhanced Shoot AI
+		[Skeleton."Skeleton Shoot"."Entity Blacklist"]
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+			Blacklist = ["quark:forgotten"]
 
 [Zombie]
 	"Enable Digger Zombie" = true
@@ -80,6 +92,12 @@
 		"Digger Proper Tool Only" = false
 		#Zombies with Digger AI will mine only if they have a tool in the off-hand
 		"Digger Tool Only" = false
+
+		#Entities that shouldn't get the Digger AI
+		[Zombie."Digger Zombie"."Entity Blacklist"]
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+			Blacklist = []
 
 		#Blocks in here will not be minable by zombies (or will be the only minable in case it's whitelist)
 		[Zombie."Digger Zombie"."Block Blacklist"]
