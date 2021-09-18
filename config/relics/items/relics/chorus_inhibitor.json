@@ -1,6 +1,7 @@
 {
   "stats": {
-    "timePerChorus": 30
+    "maxDistance": 50,
+    "safeChecks": 5
   },
   "loot": {
     "lootChests": [

@@ -1,7 +1,6 @@
 {
   "stats": {
     "additionalLooting": 1,
-    "playerDamageMultiplier": 2.0,
     "petDamageMultiplier": 3.0
   },
   "loot": {

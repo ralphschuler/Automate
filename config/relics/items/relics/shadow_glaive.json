@@ -1,16 +1,13 @@
 {
   "stats": {
-    "summonChance": 0.35,
-    "minDamageForSummon": 1.0,
-    "maxDistanceForSummon": 5,
-    "initialDamageMultiplier": 1.25,
-    "summonCooldown": 1,
-    "bounceChanceMultiplier": 0.025,
+    "maxCharges": 8,
+    "chargeRegenerationTime": 10,
+    "damage": 5,
+    "throwCooldown": 10,
+    "bounceChanceMultiplier": 0.015,
     "bounceRadius": 7,
     "projectileSpeed": 0.45,
-    "maxBounces": 10,
-    "minDamagePerBounce": 1.0,
-    "damageMultiplierPerBounce": 0.05
+    "maxBounces": 10
   },
   "loot": {
     "lootChests": [

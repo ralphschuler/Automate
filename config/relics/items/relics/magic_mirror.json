@@ -1,6 +1,6 @@
 {
   "stats": {
-    "cooldown": 60
+    "cooldown": 30
   },
   "loot": {
     "lootChests": [

@@ -3,5 +3,5 @@ enabled = true
 #Enable or disable a debug overlay that colors pixels by their normal
 debugNormals = false
 #Cache chunk lookups to improve performance.
-chunkCaching = false
+chunkCaching = true
 

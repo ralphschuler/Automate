@@ -1,8 +1,6 @@
 {
   "stats": {
     "flySpeed": 1.5,
-    "ramDamage": 5.0,
-    "ramKnockback": 3.0,
     "breathConsumptionRadius": 10,
     "breathCapacity": 1000,
     "breathConsumptionSpeed": 0.02,

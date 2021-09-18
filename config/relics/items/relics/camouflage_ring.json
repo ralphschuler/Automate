@@ -1,8 +1,5 @@
 {
-  "stats": {
-    "invisibilityTime": 60,
-    "damageMultiplier": 2.0
-  },
+  "stats": {},
   "loot": {
     "lootChests": [
       "minecraft:chests/stronghold_corridor",

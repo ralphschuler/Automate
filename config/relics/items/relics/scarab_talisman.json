@@ -1,6 +1,11 @@
 {
   "stats": {
-    "speedModifier": 1.5
+    "speedModifier": 1.5,
+    "digModifier": 1.15,
+    "allowedBiomes": [
+      "mesa",
+      "desert"
+    ]
   },
   "loot": {
     "lootChests": [

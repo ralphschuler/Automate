@@ -3,16 +3,9 @@
     "soulLooseCooldown": 10,
     "minSoulLooseAmount": 5,
     "soulLoseMultiplierPerSoul": 0.1,
-    "soulForExplosion": 50,
-    "explosionPreparation": 12,
-    "explosionRadius": 10,
-    "explosionKnockback": 5.0,
-    "minExplosionDamage": 2,
-    "explosionDamagePerSoul": 0.75,
-    "explosionCooldown": 60,
     "soulCapacity": 100,
-    "soulFromHealthPercentage": 0.25,
-    "playerDamageMultiplierPerSoul": 0.1
+    "soulFromHealthMultiplier": 0.25,
+    "damageMultiplierPerSoul": 0.1
   },
   "loot": {
     "lootChests": [

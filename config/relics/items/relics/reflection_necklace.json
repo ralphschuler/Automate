@@ -1,9 +1,8 @@
 {
   "stats": {
-    "maxCharges": 3,
+    "maxCharges": 5,
     "timePerCharge": 60,
-    "minDistanceForKnockback": 10,
-    "reflectedDamageMultiplier": 2.0
+    "reflectedDamageMultiplier": 0.5
   },
   "loot": {
     "lootChests": [

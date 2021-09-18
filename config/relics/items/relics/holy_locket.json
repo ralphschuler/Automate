@@ -1,9 +1,8 @@
 {
   "stats": {
     "damageMultiplier": 1.5,
+    "healMultiplier": 1.25,
     "igniteChance": 0.25,
-    "burnDuration": 4,
-    "healChance": 0.1,
     "invulnerabilityTime": 10
   },
   "loot": {

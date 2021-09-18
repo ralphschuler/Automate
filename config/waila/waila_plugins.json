@@ -47,6 +47,9 @@
     "horse_speed": true,
     "breeding_cooldown": true
   },
+  "woot": {
+    "display_layout_items": true
+  },
   "darkpaintings": {
     "show_artist": true,
     "show_id": false,

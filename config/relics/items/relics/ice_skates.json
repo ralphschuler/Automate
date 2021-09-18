@@ -1,10 +1,8 @@
 {
   "stats": {
     "speedModifier": 1.1,
-    "maxSpeedupTime": 10.0,
-    "speedupsPerRam": 2,
-    "ramRadius": 1,
-    "baseRamDamage": 2.0,
+    "ramRadius": 0.5,
+    "ramDamage": 5.0,
     "fallingDamageMultiplier": 0.25
   },
   "loot": {

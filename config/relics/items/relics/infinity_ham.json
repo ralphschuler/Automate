@@ -1,9 +1,10 @@
 {
   "stats": {
     "rechargeTime": 60,
-    "useDuration": 80,
+    "useDuration": 32,
     "maxPieces": 3,
-    "feedAmount": 10
+    "feedAmount": 10,
+    "saturationAmount": 5
   },
   "loot": {
     "lootChests": [

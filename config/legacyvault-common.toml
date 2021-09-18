@@ -4,12 +4,12 @@
 ###############################
 [01-mod]
 	# Remind the user of the latest version update.
-	enableLatestVersionReminder = false
+	enableLatestVersionReminder = true
 	# The directory where mods are located
 	#This is relative to the Minecraft install path.
 	modFolder = "mods"
 	#Enables/Disables version checking.
-	enableVersionChecker = false
+	enableVersionChecker = true
 	#Enables/Disables mod.
 	enabled = true
 	# The directory where configs are located.

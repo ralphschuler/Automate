@@ -1,9 +1,8 @@
 {
   "stats": {
-    "stackDuration": 5,
-    "minDamage": 3.0,
+    "stackDuration": 3,
     "dealtDamageMultiplier": 0.1,
-    "incomingDamageMultiplier": 0.05
+    "incomingDamageMultiplier": 0.025
   },
   "loot": {
     "lootChests": [

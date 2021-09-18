@@ -1,6 +1,5 @@
 {
   "stats": {
-    "swimSpeedModifier": -0.25,
     "incomingDamageMultiplier": 1.5,
     "dealtDamageMultiplier": 3.0
   },
@@ -10,7 +9,7 @@
       "minecraft:chests/underwater_ruin_small",
       "minecraft:chests/shipwreck_treasure"
     ],
-    "chance": 0.125
+    "chance": 0.1
   },
   "level": {
     "maxLevel": 10,

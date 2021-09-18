@@ -1,7 +1,7 @@
 {
   "stats": {
-    "lootingChance": 0.1,
-    "fortuneChance": 0.1,
+    "lootingChance": 0.25,
+    "fortuneChance": 0.25,
     "additionalLooting": 3,
     "additionalFortune": 3
   },

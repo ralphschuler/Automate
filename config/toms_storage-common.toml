@@ -9,4 +9,9 @@ invCableConnectorMaxScanSize = 2048
 #Wireless terminal reach
 #Range: 4 ~ 64
 wirelessReach = 16
+#Multiblock inventories
+multiblockInv = []
+#Wireless terminal reach
+#Range: 16 ~ 512
+advWirelessRange = 64
 

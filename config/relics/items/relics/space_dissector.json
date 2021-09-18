@@ -1,15 +1,13 @@
 {
   "stats": {
-    "projectileSpeed": 0.75,
+    "projectileSpeed": 1.0,
     "maxThrownTime": 60,
     "timeBeforeReturn": 10,
-    "distanceForTeleport": 5,
-    "cooldownAfterTeleport": 30,
-    "cooldownAfterReturn": 5,
+    "cooldownAfterTeleport": 10,
     "maxBounces": 10,
     "additionalTimeAfterBounce": 4,
-    "baseDamage": 4,
-    "damageMultiplierPerBounce": 2.0
+    "baseDamage": 8,
+    "damageMultiplierPerBounce": 1.5
   },
   "loot": {
     "lootChests": [

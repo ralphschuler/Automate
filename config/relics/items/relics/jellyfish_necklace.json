@@ -1,10 +1,10 @@
 {
   "stats": {
-    "chargePreparationTime": 60,
-    "maxCharges": 10,
-    "damagePerCharge": 10,
-    "healMultiplier": 2.0,
-    "shockRadius": 1.2
+    "swimSpeedModifier": -0.2,
+    "magicResistance": 0.25,
+    "healMultiplier": 3.0,
+    "riptideCooldown": 5,
+    "riptidePower": 3.0
   },
   "loot": {
     "lootChests": [
@@ -12,7 +12,7 @@
       "minecraft:chests/underwater_ruin_small",
       "minecraft:chests/shipwreck_treasure"
     ],
-    "chance": 0.125
+    "chance": 0.1
   },
   "level": {
     "maxLevel": 10,

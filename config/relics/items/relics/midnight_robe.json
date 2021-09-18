@@ -1,9 +1,6 @@
 {
   "stats": {
-    "speedModifier": 1.25,
-    "healthPercentage": 0.2,
-    "damageMultiplier": 2.0,
-    "stealthDamageCooldown": 5
+    "speedModifier": 1.5
   },
   "loot": {
     "lootChests": [
@@ -12,7 +9,7 @@
       "minecraft:chests/stronghold_library",
       "minecraft:chests/abandoned_mineshaft"
     ],
-    "chance": 0.1
+    "chance": 0.125
   },
   "level": {
     "maxLevel": 10,

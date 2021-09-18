@@ -1,7 +1,7 @@
 {
   "stats": {
-    "speedModifier": 1.25,
-    "activationTime": 10
+    "speedModifier": 0.025,
+    "maxModifiers": 200
   },
   "loot": {
     "lootChests": [
