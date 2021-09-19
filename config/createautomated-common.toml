@@ -8,6 +8,12 @@
 	[worldGen.copper_node]
 		# 
 		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
+		# 
+		#Range: > 0
 		clusterSize = 16
 		# 
 		#Amount of clusters generated per Chunk.
@@ -16,12 +22,6 @@
 		#  0 to disable.
 		#Range: 0.0 ~ 512.0
 		frequency = 2.0
-		# 
-		#Range: > 0
-		minHeight = 40
-		# 
-		#Range: > 0
-		maxHeight = 256
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.copper_node.biomes]
@@ -44,14 +44,20 @@
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.copper_node.categories]
-			#[@cui:CreateautomatedHidden:Hidden without description]
-			categories = ["nether", "the_end"]
 			# 
 			#Whether or not this filter is in blacklist mode
 			#[@cui:CreateautomatedHidden:Hidden without description]
 			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
 
 	[worldGen.iron_node]
+		# 
+		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
 		# 
 		#Range: > 0
 		clusterSize = 4
@@ -62,12 +68,6 @@
 		#  0 to disable.
 		#Range: 0.0 ~ 512.0
 		frequency = 1.0
-		# 
-		#Range: > 0
-		minHeight = 40
-		# 
-		#Range: > 0
-		maxHeight = 256
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.iron_node.biomes]
@@ -90,14 +90,20 @@
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.iron_node.categories]
-			#[@cui:CreateautomatedHidden:Hidden without description]
-			categories = ["nether", "the_end"]
 			# 
 			#Whether or not this filter is in blacklist mode
 			#[@cui:CreateautomatedHidden:Hidden without description]
 			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
 
 	[worldGen.lapis_node]
+		# 
+		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
 		# 
 		#Range: > 0
 		clusterSize = 10
@@ -108,12 +114,6 @@
 		#  0 to disable.
 		#Range: 0.0 ~ 512.0
 		frequency = 4.0
-		# 
-		#Range: > 0
-		minHeight = 40
-		# 
-		#Range: > 0
-		maxHeight = 256
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.lapis_node.biomes]
@@ -136,14 +136,20 @@
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.lapis_node.categories]
-			#[@cui:CreateautomatedHidden:Hidden without description]
-			categories = ["nether", "the_end"]
 			# 
 			#Whether or not this filter is in blacklist mode
 			#[@cui:CreateautomatedHidden:Hidden without description]
 			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
 
 	[worldGen.zinc_node]
+		# 
+		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
 		# 
 		#Range: > 0
 		clusterSize = 9
@@ -154,12 +160,6 @@
 		#  0 to disable.
 		#Range: 0.0 ~ 512.0
 		frequency = 2.0
-		# 
-		#Range: > 0
-		minHeight = 40
-		# 
-		#Range: > 0
-		maxHeight = 256
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.zinc_node.biomes]
@@ -182,14 +182,20 @@
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.zinc_node.categories]
-			#[@cui:CreateautomatedHidden:Hidden without description]
-			categories = ["nether", "the_end"]
 			# 
 			#Whether or not this filter is in blacklist mode
 			#[@cui:CreateautomatedHidden:Hidden without description]
 			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
 
 	[worldGen.gold_node]
+		# 
+		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
 		# 
 		#Range: > 0
 		clusterSize = 6
@@ -200,12 +206,6 @@
 		#  0 to disable.
 		#Range: 0.0 ~ 512.0
 		frequency = 1.0
-		# 
-		#Range: > 0
-		minHeight = 40
-		# 
-		#Range: > 0
-		maxHeight = 256
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.gold_node.biomes]
@@ -228,14 +228,20 @@
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.gold_node.categories]
-			#[@cui:CreateautomatedHidden:Hidden without description]
-			categories = ["nether", "the_end"]
 			# 
 			#Whether or not this filter is in blacklist mode
 			#[@cui:CreateautomatedHidden:Hidden without description]
 			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
 
 	[worldGen.cinder_flour_node]
+		# 
+		#Range: > 0
+		minHeight = 0
+		# 
+		#Range: > 0
+		maxHeight = 256
 		# 
 		#Range: > 0
 		clusterSize = 16
@@ -246,12 +252,6 @@
 		#  0 to disable.
 		#Range: 0.0 ~ 512.0
 		frequency = 10.0
-		# 
-		#Range: > 0
-		minHeight = 0
-		# 
-		#Range: > 0
-		maxHeight = 256
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.cinder_flour_node.biomes]
@@ -274,10 +274,10 @@
 
 		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
 		[worldGen.cinder_flour_node.categories]
-			#[@cui:CreateautomatedHidden:Hidden without description]
-			categories = ["nether"]
 			# 
 			#Whether or not this filter is in blacklist mode
 			#[@cui:CreateautomatedHidden:Hidden without description]
 			blacklist = false
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether"]
 

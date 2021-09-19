@@ -1,23 +1,23 @@
 
 ["Regrowth Control Values"]
-	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
-	#Range: 0 ~ 2
-	debugLevel = 0
+	#Mushroom Minimum Biome Temperature
+	#Range: -2.0 ~ 2.0
+	mushroomMinTemp = 0.2
 	#Eating Heals: 0-No, 1-yes
 	#Range: 0.0 ~ 1.0
 	eatingHeals = 0.99
 	#Mushroom X axis density - 3 dense to 11 sparse
 	#Range: 3 ~ 11
 	"mushroomXDensity " = 6
-	#Mushroom Z axis density - 3 dense to 11 sparse
-	#Range: 3 ~ 11
-	"mushroomZDensity " = 6
-	#Mushroom Minimum Biome Temperature
-	#Range: -2.0 ~ 2.0
-	mushroomMinTemp = 0.2
 	#Mushroom Maximum Biome Temperature
 	#Range: -2.0 ~ 2.0
 	mushroomMaxTemp = 1.2
+	#Mushroom Z axis density - 3 dense to 11 sparse
+	#Range: 3 ~ 11
+	"mushroomZDensity " = 6
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
 
 ["Regrowth Mobs 6464"]
 	#RegrowthMobs String 6464

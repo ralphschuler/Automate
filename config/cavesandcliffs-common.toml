@@ -4,9 +4,9 @@
 	monstersSpawnOnlyInTotalDarkness = true
 
 ["Ore Generation Settings"]
+	generateDeepslateBlobs = true
 	generateCopperOre = true
 	generateTuffBlobs = true
-	generateDeepslateBlobs = true
 
 ["World Generation Settings"]
 
@@ -19,25 +19,25 @@
 		generateGlowLichen = true
 
 	["World Generation Settings"."Cave Biome Settings"]
-		generateLushCaves = true
 		generateDripstoneCaves = true
+		generateLushCaves = true
 
 ["Entity Settings"]
 
 	["Entity Settings"."Glow Squid Settings"]
-		generateGlowSquids = true
 		#Range: 0 ~ 100
 		glowSquidWeight = 10
+		generateGlowSquids = true
 
 	["Entity Settings"."Axolotl Settings"]
-		generateAxolotls = true
 		#Range: 0 ~ 100
 		axolotlWeight = 10
+		generateAxolotls = true
 
 	["Entity Settings"."Goat Settings"]
-		generateGoats = true
 		#Range: 0 ~ 100
 		goatWeight = 10
+		generateGoats = true
 
 ["Experimental Settings"]
 	#Range: 0 ~ 256
@@ -45,8 +45,8 @@
 
 ["World Type Settings"]
 	generateNoiseCaves = true
-	generateAquifers = true
+	generateOreVeins = true
 	generateDeepslate = true
 	generateNoodleCaves = true
-	generateOreVeins = true
+	generateAquifers = true
 
