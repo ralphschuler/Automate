@@ -21,6 +21,12 @@ This modpack aims to be a Balanced Tech Advanture and will evolve around the fol
 
 ## Roadmap
 - To be filled
+  
+## Challenges
+- Build a Tiny Village [Using Chisels & Bits, Pehkui, Immersive Portals]
+- Build a automated Storage System [Using Create, Immersive Engineering]
+- Build a Train System for Player / Resource Transportation [Using: Create]
+- Build a Tardis like Base [Using Pehkui, Immersive Portals]
 
 ## Contributing
 Feedback & Ideas are welcome, just leave a comment.
